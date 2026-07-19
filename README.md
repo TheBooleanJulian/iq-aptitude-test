@@ -121,4 +121,9 @@ npm run preview  # preview production build
 
 ## License
 
-MIT
+The application code is licensed under the [MIT License](LICENSE).
+
+The **question bank** (`src/iq_questions_db.js` — question text, answer
+options, and explanations) is © 2026 TheBooleanJulian, all rights reserved,
+and is **not** covered by the MIT license. It may not be copied, redistributed,
+or reused without prior written permission.

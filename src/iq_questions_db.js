@@ -1,6 +1,14 @@
 /**
  * IQ Aptitude Practice — Question Bank
  * ─────────────────────────────────────
+ * Copyright (c) 2026 TheBooleanJulian. All rights reserved.
+ *
+ * This file's content (questions, answer options, and explanations) is
+ * proprietary and NOT covered by the repository's MIT license, which applies
+ * to the surrounding application code only. No permission is granted to
+ * copy, redistribute, or reuse this question bank without prior written
+ * consent from the copyright holder.
+ *
  * 120 questions total.  30 per category.
  *   Easy   : 5  per category
  *   Medium : 10 per category
