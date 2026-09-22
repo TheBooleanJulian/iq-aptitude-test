@@ -8,7 +8,7 @@
 ![Vite](https://img.shields.io/badge/-Vite%205-646CFF?logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Questions](https://img.shields.io/badge/Questions-20-1D9E75)
-![License](https://img.shields.io/badge/license-MIT%20(code%20only)-00D4C8.svg)
+![License](https://img.shields.io/badge/license-AGPLv3%20%2B%20Commercial-00D4C8.svg)
 
 </div>
 
@@ -37,6 +37,10 @@ A self-contained browser app that presents 20 reasoning questions across four IQ
 | Frontend | React 18 + Vite 5 |
 | Question bank | `src/iq_questions_db.js` (plain JS arrays) |
 | Local launch | Shell/Batch launchers (no server required) |
+
+## Screenshots
+
+_Screenshots coming soon._
 
 ## Quick Start
 
@@ -112,11 +116,19 @@ Append a new object to the relevant array — the quiz picks it up automatically
 
 ## Changelog
 
-- **Jul 2026** — Initial release: full 20-question quiz, four reasoning categories, results screen, printable worksheet export, one-click launchers for Windows and macOS; MIT license added (code only — question bank content rights reserved)
+- **2026-09** — Re-licensed the code from MIT to dual AGPLv3 + Commercial; question bank content remains separately reserved
+- **2026-07-20** — Revamped README with badges, status/roadmap, and changelog
+- **2026-07-20** — Added MIT license for code, reserved rights on question bank content
+- **2026-07-19** — Initial commit: IQ aptitude practice test
 
 ## License
 
-MIT for the code. The question bank content (`src/iq_questions_db.js`) is copyright reserved — see `LICENSE` for details.
+This project is dual licensed.
+
+- Community Edition — [GNU Affero General Public License v3 (AGPLv3)](LICENSE). Free to use, modify, and self-host. If you distribute a modified version or run it as a network service, you must make the corresponding source available.
+- Commercial License — for organisations that want to embed, modify, or distribute this software without AGPLv3's obligations. See [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+
+The question bank content (`src/iq_questions_db.js` — question text, answer options, and explanations) is separately copyrighted and **not** covered by either license above.
 
 ---
 
